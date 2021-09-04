@@ -25,7 +25,7 @@
                                 <a href="_view-users.php">View Users</a>
                             </li>
                             <li>
-                                <a href="_create-User.php">Create User</a>
+                                <a href="../registration.php">Create User</a>
                             </li>
                             <!-- <li>
                                 <a href="_edit-User.php">Edit User</a>

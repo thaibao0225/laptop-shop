@@ -36,17 +36,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <table>
                             <form action="_create-product.php" method="POST" enctype="multipart/form-data" id="add-product-form">
                             <tr>
-                                <th><label for="nameproduct">Name Product:</label></th>
+                                <th><label for="nameproduct">First Name:</label></th>
                                 <td><input type="text" placeholder="Name Product" id="nameproduct" name="nameproduct"> </td>
                             </tr>
                                 
                             <tr>
-                                <th><label for="nameproduct">Brand Product:</label></th>
+                                <th><label for="nameproduct">Last Name:</label></th>
                                 <td><input type="text" placeholder="Brand" id="brand" name="brand"> </td>
                             </tr>
                             
                             <tr>
-                                <th><label for="nameproduct">Image Product:</label></th>
+                                <th><label for="nameproduct">Email:</label></th>
                                 <td><input type="text" placeholder="Image" id="image" name="image"> </td>
                             </tr>
 
@@ -55,11 +55,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <th><label for="nameproduct">Price Product:</label></th>
                                 <td><input type="text" placeholder="Price" id="price" name="price"> </td>
                             </tr>
-
-                            <!-- <tr>
-                                <th><label for="nameproduct">Product Register:</label></th>
-                                <td><input type="text" placeholder="Product register" id="register" name="register"> </td>
-                            </tr> -->
 
                             <tr>
                                 <th><label for="nameproduct">Discount Price:</label></th>
